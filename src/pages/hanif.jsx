@@ -8,7 +8,7 @@ function HanifProfile() {
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 h-48 flex items-center justify-center">
           <div className="text-center">
             <img 
-              src="/foto-profil.jpg" 
+              src="/hanif.jpg" 
               alt="Foto Profil" 
               className="w-32 h-32 rounded-full border-4 border-white mx-auto object-cover shadow-lg"
             />
@@ -22,6 +22,7 @@ function HanifProfile() {
           {/* Info Pribadi */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <div className="bg-gray-50 p-4 rounded-lg">
+<<<<<<< HEAD
               <p className="text-gray-600 text-sm font-semibold">T2E</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
@@ -29,7 +30,18 @@ function HanifProfile() {
             </div>
             <div className="bg-gray-50 p-4 rounded-lg md:col-span-2">
               <p className="text-gray-600 text-sm font-semibold">Malang, Jawa Timur, Indonesia</p>
+=======
+              <p className="text-gray-600 text-sm font-semibold">Kelas T2E</p>
             </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-gray-600 text-sm font-semibold">Program Studi D3 Teknologi Informasi</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg md:col-span-2">
+              <p className="text-gray-600 text-sm font-semibold">Domisili Banjarmasin</p>
+>>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
+            </div>
+            <br></br>
+            <br></br>
           </div>
 
           {/* Tentang Diri */}
@@ -47,13 +59,20 @@ function HanifProfile() {
               Saya senang belajar hal-hal baru dan selalu berusaha untuk berkembang menjadi 
               pribadi yang lebih baik.
               
+<<<<<<< HEAD
               Di waktu luang, saya menikmati waktu luang saya bermain game dan membaca buku. Saya percaya bahwa dengan belajar 
+=======
+              Di waktu luang, saya menikmati bermain game dan membaca. Saya percaya bahwa dengan belajar 
+>>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
               dan berlatih secara konsisten, saya dapat mencapai cita-cita saya di masa depan. 
               Saya juga senang berkolaborasi dengan orang lain dan bekerja dalam tim untuk 
               menciptakan sesuatu yang bermanfaat.
               
               Terima kasih telah mengunjungi profil saya!
             </p>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
 
           {/* Footer */}
