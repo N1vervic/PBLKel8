@@ -23,6 +23,7 @@ function HanifProfile() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <div className="bg-gray-50 p-4 rounded-lg">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <p className="text-gray-600 text-sm font-semibold">T2E</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
@@ -40,6 +41,16 @@ function HanifProfile() {
               <p className="text-gray-600 text-sm font-semibold">Domisili Banjarmasin</p>
 >>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
             </div>
+=======
+              <p className="text-gray-600 text-sm font-semibold">Kelas T2E</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-gray-600 text-sm font-semibold">Program Studi D3 Teknologi Informasi</p>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg md:col-span-2">
+              <p className="text-gray-600 text-sm font-semibold">Domisili Banjarmasin</p>
+            </div>
+>>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
             <br></br>
             <br></br>
           </div>
@@ -60,7 +71,11 @@ function HanifProfile() {
               pribadi yang lebih baik.
               
 <<<<<<< HEAD
+<<<<<<< HEAD
               Di waktu luang, saya menikmati waktu luang saya bermain game dan membaca buku. Saya percaya bahwa dengan belajar 
+=======
+              Di waktu luang, saya menikmati bermain game dan membaca. Saya percaya bahwa dengan belajar 
+>>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
 =======
               Di waktu luang, saya menikmati bermain game dan membaca. Saya percaya bahwa dengan belajar 
 >>>>>>> 01dcf7a1977bc2f4fb2408d40e6957059b722596
