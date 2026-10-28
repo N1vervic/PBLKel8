@@ -10,18 +10,18 @@ const teamMembers = [
     NIM: '253140700111023',
     foto: '/hanif.jpg'
   },
-  /*{/*
+  {
     name: 'Rifqi Ardian',
-    route: '/rifqi-ardhian',
+    route: '/albar',
     kelas: 'Teknik Informatika - B',
     foto: '/foto-rifqi.jpg'
   },
-  {/*
+  {
     name: 'Surya Rafliansyah',
-    route: '/surya-raflisansyah',
-    kelas: 'Teknik Informatika - A',
+    route: '/ivan',
+    NIM: '253',
     foto: '/foto-surya.jpg'
-  },*/
+  },
 ]
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500">
@@ -39,7 +39,7 @@ const teamMembers = [
 
       {/* Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-row flex-wrap justify-left gap-15">
           {teamMembers.map((member, index) => (
             <Link 
               key={index}
@@ -47,7 +47,7 @@ const teamMembers = [
               className="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300"
             >
               {/* Foto Profil */}
-              <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center p-6">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-left justify-left p-6">
                 <img 
                   src={member.foto} 
                   alt={member.name}
